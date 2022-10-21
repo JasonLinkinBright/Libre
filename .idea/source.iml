@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="source" external.linked.project.path="$MODULE_DIR$" external.root.project.path="$MODULE_DIR$" external.system.id="GRADLE" external.system.module.group="" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="android-gradle" name="Android-Gradle">
+      <configuration>
+        <option name="GRADLE_PROJECT_PATH" value=":" />
+        <option name="LAST_SUCCESSFUL_SYNC_AGP_VERSION" value="4.1.3" />
+        <option name="LAST_KNOWN_AGP_VERSION" value="4.1.3" />
+      </configuration>
+    </facet>
+    <facet type="android" name="Android">
+      <configuration>
+        <option name="SELECTED_BUILD_VARIANT" value="strippedUIDebug" />
+        <option name="ASSEMBLE_TASK_NAME" value="assembleStrippedUIDebug" />
+        <option name="COMPILE_JAVA_TASK_NAME" value="compileStrippedUIDebugSources" />
+        <afterSyncTasks>
+          <task>generateStrippedUIDebugSources</task>
+        </afterSyncTasks>
+        <option name="ALLOW_USER_CONFIGURATION" value="false" />
+        <option name="RES_FOLDERS_RELATIVE_PATH" value="file://$MODULE_DIR$/res;file://$MODULE_DIR$/src/strippedUI/res;file://$MODULE_DIR$/src/debug/res;file://$MODULE_DIR$/src/strippedUIDebug/res;file://$MODULE_DIR$/build/generated/res/rs/strippedUI/debug;file://$MODULE_DIR$/build/generated/res/resValues/strippedUI/debug" />
+        <option name="TEST_RES_FOLDERS_RELATIVE_PATH" value="file://$MODULE_DIR$/src/androidTest/res;file://$MODULE_DIR$/src/androidTestStrippedUI/res;file://$MODULE_DIR$/src/androidTestDebug/res;file://$MODULE_DIR$/src/androidTestStrippedUIDebug/res;file://$MODULE_DIR$/build/generated/res/rs/androidTest/strippedUI/debug;file://$MODULE_DIR$/build/generated/res/resValues/androidTest/strippedUI/debug" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_6">
+    <output url="file://$MODULE_DIR$/build/intermediates/javac/strippedUIDebug/classes" />
+    <output-test url="file://$MODULE_DIR$/build/intermediates/javac/strippedUIDebugUnitTest/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../Bootstrap">
+      <sourceFolder url="file://$MODULE_DIR$/../Bootstrap/src" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/assets" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/assets_strippedUI" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/res" type="java-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/build" />
+    </content>
+    <orderEntry type="jdk" jdkName="Android API 23 Platform" jdkType="Android SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

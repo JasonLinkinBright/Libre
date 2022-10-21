@@ -1,0 +1,22 @@
+// created by Makefile.shared - your changes will be overridden
+ext {
+    liboSrcRoot         = '/home/shawn/git/libreoffice'
+    liboWorkdir         = '/home/shawn/git/libreoffice/workdir'
+    liboInstdir         = '/home/shawn/git/libreoffice/instdir'
+    liboEtcFolder       = 'program'
+    liboUreMiscFolder   = 'program'
+    liboSharedResFolder = 'program/resource'
+    liboUREJavaFolder   = 'program/classes'
+    liboShareJavaFolder = 'program/classes'
+    liboExampleDocument = '/home/shawn/git/libreoffice/android/default-document/example.odt'
+    liboVersionMajor    = '5'
+    liboVersionMinor    = '3'
+    liboGitFullCommit   = '228a4ff4fe70ca5b7306b2c8312b9a1d3f618118'
+    liboNdkGdbserver    = '/home/shawn/android/android-ndk-r10e/prebuilt/android-x86/gdbserver/gdbserver'
+    liboAndroidAppAbi   = 'armeabi-v7a'
+}
+android.defaultConfig {
+    applicationId 'org.example.libreoffice'
+    versionCode project.hasProperty('cmdVersionCode') ? cmdVersionCode.toInteger() : 1
+    versionName '5.3.4.2.0+/228a4ff4/shawn'
+}
